@@ -1,7 +1,6 @@
 'use strict'
-getUserNames(users) => {
-  return users.name
-}
+const name = getUserNames.map(getUserName => getUserName.name);
+  return name; 
 
 console.log(
   getUserNames([
