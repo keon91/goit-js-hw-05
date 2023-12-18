@@ -1,7 +1,8 @@
 'use strict'
-const getTotalBalanceByGender = (users, gender)
-balance?
-gender = gender
+const getTotalBalanceByGender = (users, gender) =>{
+  return users.filter((allUser)=>{return allUser.gender === gender})
+}
+  
 
 const allUsers = [
     {
