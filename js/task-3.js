@@ -1,6 +1,13 @@
 'use strict'
-const sortByDescendingFriendCount = users => users.toSorted((a, b) => a.friends - b.friends);
+const sortByDescendingFriendCount = users.toSorted((a, b) => users.friends,)
 
+  // .toSorted((a, b) => a.friend - b.friend)
+  // .map(user => user.friend);
+  
+  // .filter(friends, index, array) => array.indexOf()
+  //.toSorted((a, b) => a.friends.localeCompare(b.friends))
+  // .toSorted((a, b) => a.friends - b.friends)
+  // .map(user => user.name);
 
 console.log(
   sortByDescendingFriendCount([
