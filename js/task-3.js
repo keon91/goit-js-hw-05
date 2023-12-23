@@ -1,4 +1,7 @@
 'use strict'
+class StringBuilder {
+    #value;
+}
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
